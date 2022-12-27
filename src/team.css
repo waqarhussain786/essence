@@ -1,0 +1,100 @@
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
+        text-transform: capitalize;
+    }
+    
+    /* _____________________________TEAM______________________________ */
+    .team-page-container{
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .team-members{
+        display: flex; 
+        margin-top: 50px;
+        justify-content: center;
+        width: 100%;
+    }
+    .member-name{
+        padding: 1.5vh;
+    }
+    .member-detail{
+        padding: 1.5vh;
+        
+    }
+    .member-profile1{
+        box-shadow: 0 10px 50px 0 rgba(84,110,122,0.35);
+        margin: 10px;
+        padding: 40px 10px;
+        
+    }
+    .member-profile1:hover{
+        /* padding: 1px; */
+        box-shadow: 0 10px 50px 0 rgba(84,110,122,0.80);
+    }
+    .member-profile2{
+        box-shadow: 0 10px 50px 0 rgba(84,110,122,0.35);
+        background-size: cover;
+        width: 100%;
+        margin: 1rem;
+        
+    }
+    .member-profile3{
+        background-image: url('./img/team3.png');
+        box-shadow: 0 10px 50px 0 rgba(84,110,122,0.35);
+        background-size: cover;
+        width: 100%;
+        margin: 1rem;
+        
+    }
+    .member-profile4{
+        background-image: url('./img/team4.png');
+        box-shadow: 0 10px 50px 0 rgba(84,110,122,0.35);
+        background-size: cover;
+        width: 100%;
+        margin: 1rem;
+        
+    }
+    .team-icons{
+        display: flex;
+        cursor: pointer;
+        width: 80%;
+        justify-content: space-around;
+        margin-left: 1.5rem;
+        padding-top: 1.3vh;
+        color: #f97794;
+    }
+    
+    
+@media (max-width:1280pX){
+    .team-page-container{
+        height: auto;
+        }
+    .team-members{
+        flex-direction: column;
+        }
+    }
+@media (max-width:1024pX){
+    .team-page-container{
+        height: auto;
+    }
+    .team-members{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:285pX){
+    .team-page-container{
+        height: auto;
+    }
+    .team-members{
+        flex-direction: column;
+    }
+} 

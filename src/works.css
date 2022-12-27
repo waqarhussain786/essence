@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}    
+    
+    
+    /* --------------------------Works--------------------- */
+     
+    .work-page-container{
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .work-page-boxes{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .btns-container{
+        padding-top: 5vh;
+    }
+    .btns-container .work_page_btns{
+        padding: 2vh;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin: 1vh;
+        border-radius: 2rem;
+        border: none;
+        background-color:#f97794;
+
+    }
+
+    .work-page-box-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 6vh;
+        flex-direction: column;
+
+    }
+    
+    .work-img{
+        border-radius: 4px;
+        padding: 4px;
+        margin-top: 4px;
+    }
+    
+    @media (max-width:1280pX){
+        .work-page-container{
+            width: 100%;
+            height: auto;
+        }
+    
+        .btns-container{
+            display: flex;
+            flex-direction: row;
+            padding-top: 5vh;
+        }
+        
+
+    }
+    @media (max-width:1024pX){
+        .work-page-container{
+            width: 100%;
+            height: auto;
+        }
+    
+        .btns-container{
+            display: flex;
+            flex-direction: row;
+            padding-top: 5vh;
+        }
+        
+    }
+    @media (max-width:820pX){
+        .btns-container{
+            display: flex;
+            flex-direction: column;
+            padding-top: 5vh;
+        }
+    }
+    @media (max-width:285pX){
+        
+        .work-page-container{
+            width: 100%;
+            height: auto;
+        }
+    
+        .btns-container{
+            display: flex;
+            flex-direction: column;
+            padding-top: 5vh;
+        }
+
+    }

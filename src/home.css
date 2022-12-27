@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}
+
+
+/* --------------------------Home--------------------- */
+
+
+.home-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/bg-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    color: white;
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.para{
+    padding-bottom: 4rem;
+    color: white;
+    width: 50%;
+    font-size: 1rem;
+    text-align: center;
+}
+.btn-container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #f97794;
+    border-radius: 2rem;
+    color: white;
+    border: none;
+}
+.btn1{
+    margin: 10px;
+    padding: 10px 30px;
+    border: solid 1px white;
+    background-color: transparent;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    padding: 0.8rem;
+    border: solid 1px #f97794;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color:#f97794;
+    border-radius: 2rem;
+    color: white;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+@media (max-width:364px) {
+    .btn-container{
+        height: auto;
+        flex-direction: column;
+    }
+}
+@media (max-width:285pX){
+    .btn{
+        padding: 5px 20px;
+    }
+    .btn1{
+        padding: 5px 20px;
+    }
+}
