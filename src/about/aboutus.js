@@ -1,4 +1,4 @@
-import pic1 from "./img/img1.png"
+import pic1 from "../img/img1.png"
 import "./about.css"
 
 function Aboutuss() {
