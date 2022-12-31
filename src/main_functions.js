@@ -1,4 +1,4 @@
-import NavBar from "./navBar/navbar";
+import NavBar from "./navBar/navbarlinks";
 import Home from "./home";
 import Ourservice from "./services";
 import Aboutuss from "./about/aboutus";
@@ -8,6 +8,7 @@ import Team from "./team";
 import Subscribe from "./subscribe";
 import Blog from "./blog";
 import Footer from "./footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import GoogleMap from "./google-map";
 
 function FirstApp() {
@@ -24,6 +25,7 @@ function FirstApp() {
         <Blog />
         <Footer />
         {/* <GoogleMap /> */}
+        
 
     </>
 }
