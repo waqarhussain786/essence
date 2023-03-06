@@ -7,6 +7,7 @@ import sponser2 from "./img/sponser2.png";
 import sponser3 from "./img/sponser3.png";
 import sponser4 from "./img/sponser4.png";
 import sponser5 from "./img/sponser5.png";
+import React from "react";
 
 function Blog() {
 

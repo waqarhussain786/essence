@@ -9,6 +9,7 @@ import Subscribe from "./subscribe";
 import Blog from "./blog";
 import Footer from "./footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
 // import GoogleMap from "./google-map";
 
 function FirstApp() {

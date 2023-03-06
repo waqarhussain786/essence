@@ -1,3 +1,4 @@
+import React from "react"
 import works1 from "./img/work_img_1.png"
 import works2 from "./img/work_img_2.png"
 import works3 from "./img/work_img_3.png"

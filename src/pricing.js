@@ -1,15 +1,17 @@
-import "./pricing.css"
-import profile1 from "./img/profile1.jpg"
-import profile2 from "./img/profile2.jpg"
-import { ImRocket } from "react-icons/im"
-import { BsCupFill } from "react-icons/bs"
-import { FaRegClipboard } from "react-icons/fa"
-import { BiHeart } from "react-icons/bi"
+import "./pricing.css";
+import profile1 from "./img/profile1.jpg";
+import profile2 from "./img/profile2.jpg";
+import { ImRocket } from "react-icons/im";
+import { BsCupFill } from "react-icons/bs";
+import { FaRegClipboard } from "react-icons/fa";
+import { BiHeart } from "react-icons/bi";
+import React from "react";
 function Pricing() {
 
-    return <>
-
-        <div className="price-page-container">
+    return (
+        <>
+        
+       <div className="price-page-container">
             <div className="price-container-heading">
                 <h1>PRICING PLANS</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, fuga saepe incidunt commodi. </p>
@@ -146,7 +148,8 @@ function Pricing() {
                 <button className="btn1">DOWNLOAD</button>
             </div>
         </div>
+        </>
 
-    </>
+    )
 }
 export default Pricing;

@@ -1,3 +1,4 @@
+import React from "react";
 import pic1 from "../img/img1.png"
 import "./about.css"
 
@@ -38,9 +39,9 @@ function Aboutuss() {
                     </div>
                 </div>
                 <div className="about-video">
-                    <iframe width="1350" height="315"
+                    <frame width="1350" height="315"
                         src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                    </iframe>
+                    </frame>
                 </div>
             </div>
         </div>
